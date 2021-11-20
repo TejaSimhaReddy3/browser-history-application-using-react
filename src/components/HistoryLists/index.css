@@ -1,0 +1,60 @@
+.lists {
+  list-style: none;
+  display: flex;
+  box-shadow: #ececec;
+  justify-content: space-between;
+}
+.timeP {
+  color: #64748b;
+  text-align: left;
+  font-size: 13px;
+  align-items: center;
+  font-weight: bold;
+}
+.history-icons-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo-icon {
+  width: 50%;
+  margin-left: 5px;
+}
+.main-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.name-domain-container {
+  display: flex;
+}
+.domainName {
+  text-align: start;
+}
+.domains {
+  text-align: right;
+  color: #475569;
+  margin-left: 10px;
+}
+.time-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.delete-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
